@@ -82,7 +82,7 @@ const rootForm = `
         }
       </script>
     </head>
-      <body bgcolor=@brand-success><!--#428bca, #367c3d, #31708f -->
+      <body>
     <!-- Primary Page Layout ================================================== -->
       <div class="container"> 
       <center>
@@ -181,7 +181,7 @@ const displayTemplateHTML = `
       <title>Go weather app</title>
       <link href="stylesheets/bootstrap.min.css" rel="stylesheet">  
     </head>
-    <body bgcolor=@brand-success><!--#428bca, #367c3d, #31708f -->
+    <body>
     <!-- Primary Page Layout ================================================== -->
       <div class="container"> 
       <center>
