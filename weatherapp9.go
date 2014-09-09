@@ -146,6 +146,7 @@ func display(w http.ResponseWriter, r *http.Request) {
           go Get(w, r, query, addr,&waitGroup)
  }
     waitGroup.Wait()
+    //fmt.Fprint(rw, redirect1)
 }
 func Get(w http.ResponseWriter, r *http.Request, query int, addr []string, waitGroup *sync.WaitGroup) {
   defer waitGroup.Done()
@@ -202,9 +203,10 @@ const displayTemplateHTML = `
           </tr>
         </tbody>
       </table>
+      <a href="/">Start again!</a>
       </center>
       </div>
       <br>
-      <br>
+      
       </body>
 </html>`
