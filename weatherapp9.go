@@ -203,10 +203,9 @@ const displayTemplateHTML = `
           </tr>
         </tbody>
       </table>
-      <a href="/">Start again!</a>
+      <button type="button" class="btn btn-default"><a href="/">Start again</a></button>
       </center>
       </div>
-      <br>
-      
+      <br>      
       </body>
 </html>`
